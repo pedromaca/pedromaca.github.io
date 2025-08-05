@@ -1,0 +1,6 @@
+colorScheme = "blowfish"
+defaultAppearence = "light"
+autoSwitchAppearance = "true"
+
+homepage.layout = "profile"
+homepage.showRecent = "true"

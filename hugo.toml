@@ -1,6 +1,6 @@
 baseURL = 'https://pedromaca.github.io'
 languageCode = 'en-us'
-title = 'Pedro'
+title = 'pedro'
 theme = 'blowfish'
 [caches]
   [caches.assets]
