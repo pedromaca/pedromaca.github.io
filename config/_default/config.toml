@@ -1,0 +1,28 @@
+defaultContentLanguage = "en"
+
+[params.author]
+  name = "Pedro Maça"
+  image = "img/pic.jpg"
+  headline = "Cloud Engineer"
+  subtitle = "Azure | ABAC | OSS"
+  bio = "Cloud Engineer"
+  links = [
+    { github = "https://github.com/pedromaca" },
+  ]
+
+[imaging]
+  anchor = 'Center'
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
+
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

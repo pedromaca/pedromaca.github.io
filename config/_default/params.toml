@@ -1,6 +1,28 @@
 colorScheme = "blowfish"
-defaultAppearence = "light"
-autoSwitchAppearance = "true"
+defaultAppearence = "dark"
+autoSwitchAppearance = "false"
 
-homepage.layout = "profile"
-homepage.showRecent = "true"
+[homepage]
+  layout = "profile"
+  showRecent = true
+  showRecentItems = 12
+  showMoreLink = true
+  showMoreLinkDest = "/posts"
+  cardView = true
+  cardViewScreenWidth = false
+
+enableSearch = true
+enableCodeCopy = true
+enableRobotsTXT = true
+
+replyByEmail = false
+
+[article]
+  showAuthor = true
+  showAuthorsBadges = true
+  showTableOfContents = true
+
+[list]
+  showCards = false
+  groupByYear = true
+  cardView = false

@@ -1,6 +1,6 @@
 baseURL = 'https://pedromaca.github.io'
 languageCode = 'en-us'
-title = 'pedro'
+title = 'pedromaca'
 theme = 'blowfish'
 [caches]
   [caches.assets]
@@ -17,9 +17,6 @@ theme = 'blowfish'
     maxAge = -1
   [caches.images]
     dir = ':cacheDir/images'
-    maxAge = -1
-  [caches.misc]
-    dir = ':cacheDir/:project'
     maxAge = -1
   [caches.modules]
     dir = ':cacheDir/modules'
