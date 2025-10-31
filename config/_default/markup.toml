@@ -11,3 +11,7 @@
 [tableOfContents]
   startLevel = 1
   endLevel = 5
+
+[markup.highlight]
+  lineNos = true
+  lineNumbersInTable = false  # or true, depending on your preference

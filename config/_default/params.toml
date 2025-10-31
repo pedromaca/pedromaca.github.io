@@ -1,3 +1,4 @@
+customCSS = "css/custom.css"
 colorScheme = "blowfish"
 defaultAppearence = "dark"
 autoSwitchAppearance = "false"

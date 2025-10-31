@@ -66,7 +66,8 @@ This approach has some relevant pre-requisites which are listed below.
 
 **Assigning ownership** of an Application (Service Principal) to another Service Principal is currently not supported via Azure Portal nor Azure CLI `az ad sp owner add` so an `az rest --method POST` request can be made as follows:
 
-```shell
+
+```shell{linenos=true}
 # Ensure you have the right permissions to execute these commands
 
 # Get Object IDs
@@ -114,10 +115,14 @@ Note that the Ids used in the POST requests are Object Ids of the corresponding 
     ```shell
     # Sync all users and groups from original to target
     dotnet run --project src/azprism.csproj principals sync --original-id <id> --target-id <id>
-    
+    ```
+
+    ```shell
     # Add users and groups from original missing in target
     dotnet run --project src/azprism.csproj principals add --original-id <id> --target-id <id>
-
+	```
+	
+    ```shell
     # Remove all users and groups from target which are not in original
     dotnet run --project src/azprism.csproj principals remove --original-id <id> --target-id <id>
     ```

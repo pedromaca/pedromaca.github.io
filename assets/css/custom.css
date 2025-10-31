@@ -1,0 +1,20 @@
+/* Make text areas wider */
+.prose {
+  max-width: 80ch; /* default ~65ch */
+}
+
+@media (min-width: 1024px) {
+  .prose {
+    max-width: 100ch; /* widen for desktops */
+  }
+}
+
+/* Override container limits */
+.max-w-prose,
+.max-w-3xl {
+  max-width: 90rem !important;
+}
+
+.chroma .lntable {
+overflow-x: auto;
+}
